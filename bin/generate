@@ -1,0 +1,73 @@
+#!/usr/bin/env ruby
+
+require 'bundler/inline'
+
+gemfile do
+  source 'https://rubygems.org'
+  gem 'json'
+  gem 'omniai'
+  gem 'omniai-openai'
+end
+
+client = OmniAI::OpenAI::Client.new
+
+response = client.chat(format: :json) do |prompt|
+  prompt.user <<~TEXT
+    Generate a JSON list of categories for recipies (e.g. Breakfast, Lunch, Dinner, Dessert, etc.).
+
+    EXAMPLE:
+
+    """
+    {
+      "categories": [
+        {
+          "name": "Breakfast",
+          "slug": "breakfast",
+        },
+        {
+          "name": "Lunch",
+          "slug": "lunch",
+        }
+      ]
+    }
+    """
+  TEXT
+end
+
+categories = JSON.parse(response.text)["categories"]
+
+puts "<categories>"
+puts JSON.pretty_generate(categories)
+puts "</categories>"
+
+categories.each do |category|
+  response = client.chat(format: :json) do |prompt|
+    prompt.user <<~TEXT
+      Generate a JSON list 20-40 recipes for the category "#{category["name"]}".
+
+      1. The response should include a name / slug for each recipe.
+      2. The name / slug should be unique within the category.
+      3. Be creative with your naming while keeping the core idea grounded and reasonable.
+      4. Make sure that every entry sounds delicious.
+
+      EXAMPLE:
+
+      """
+        {
+          "recipes": [
+            {
+              "name": "Triple Almond Cherry Crumble Squares",
+              "slug": "triple-almond-cherry-crumble-squares",
+            },
+            ...
+          ]
+        }
+      """
+    TEXT
+  end
+  recipes = JSON.parse(response.text)["recipes"]
+
+  puts "<category name=\"#{category["name"]}\">"
+  puts JSON.pretty_generate(recipes)
+  puts "</category>"
+end

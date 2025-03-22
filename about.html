@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Culinary Delights</title>
+  <meta name="description" content="Explore delicious recipes from breakfast to dinner, and everything in between, crafted to tantalize your taste buds.">
+  <script src="https://unpkg.com/alpinejs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1542276867-c7f5032e1835?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw5fHxCcmVha2Zhc3R8ZW58MHx8fHwxNzQzMDUzMjU0fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+  <header class="bg-gray-800 text-white">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-3xl">Culinary Delights</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">Recipes</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mt-8">
+    <section class="hero min-h-screen flex items-center justify-center">
+      <div class="bg-white bg-opacity-75 p-8 rounded-lg text-center max-w-lg">
+        <h2 class="text-4xl font-semibold mb-4">Welcome to Culinary Delights</h2>
+        <p class="text-xl">Your ultimate destination for delicious recipes and culinary inspiration from around the world.</p>
+      </div>
+    </section>
+
+    <section class="p-8">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-center mb-6">About Us</h2>
+        <p class="text-lg leading-relaxed mb-6">
+          At Culinary Delights, we believe in the art of cooking and the joy it brings. Our website is a treasure trove of recipes ranging from hearty breakfasts to gourmet dinners, tantalizing desserts to refreshing beverages. Each category brings a unique flavor and style, catering to diverse tastes and preferences.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1565895405138-6c3a1555da6a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxMdW5jaHxlbnwwfHx8fDE3NDMwNTMyNTR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Lunch" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Lunch</h3>
+              <p>Discover our vibrant and healthy lunch recipes, perfect for any mid-day meal.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1556742205-e10c9486e506?ixid=M3w3MjkxMzJ8MXwxfHNlYXJjaHwxfHxEaW5uZXJ8ZW58MHx8fHwxNzQzMDUzMjU1fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Dinner" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Dinner</h3>
+              <p>End your day on a high note with our exquisite dinner recipes, perfect for friends and family gatherings.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxEZXNzZXJ0fGVufDB8fHx8MTc0MzA1MzI1NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Dessert" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Dessert</h3>
+              <p>Indulge in our decadent dessert recipes, guaranteed to satisfy your sweet tooth.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw0fHxEZXNzZXJ0fGVufDB8fHx8MTc0MzA1MzI1NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Snacks" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Snacks</h3>
+              <p>Explore our delicious snack ideas for those in-between meals, from healthy to indulgent!</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxBcHBldGl6ZXJzfGVufDB8fHx8MTc0MzA1MzI1NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Appetizers" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Appetizers</h3>
+              <p>Kickstart any meal with our tempting appetizers, setting the tone for an unforgettable dining experience.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1607532941433-304659e8198a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxTYWxhZHN8ZW58MHx8fHwxNzQzMDUzMjU1fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Salads" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Salads</h3>
+              <p>Refresh your palate with our creative and colorful salad recipes, bursting with flavor.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1613844237701-8f3664fc2eff?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxTb3Vwc3xlbnwwfHx8fDE3NDMwNTMyNTZ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Soups" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Soups</h3>
+              <p>Warm up with our comforting soup recipes, perfect for a cozy night in.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1623677011781-c91d1bbe2f9e?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwyfHxCZXZlcmFnZXN8ZW58MHx8fHwxNzQzMDUzMjU2fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Beverages" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Beverages</h3>
+              <p>Sip on our delightful beverage recipes, perfect for every occasion.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1633862033803-7abafaf9bcb9?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxTaWRlJTIwRGlzaGVzfGVufDB8fHx8MTc0MzA1MzI1Nnww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Side Dishes" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Side Dishes</h3>
+              <p>Find the perfect side dish to complement any meal, elevating every bite.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1653250545519-2fdbc994812a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxNYWluJTIwQ291cnNlc3xlbnwwfHx8fDE3NDMwNTMyNTZ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Main Courses" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Main Courses</h3>
+              <p>Feast on our exquisite main courses, crafted to impress and satisfy.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1561668038-2742fcef75d7?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwyfHxCYWtpbmd8ZW58MHx8fHwxNzQzMDUzMjU3fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Baking" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Baking</h3>
+              <p>Embrace the art of baking with our selection of delicious baked goods.</p>
+            </div>
+          </div>
+
+          <div class="hover:shadow-lg transition-shadow">
+            <img src="https://images.unsplash.com/photo-1472476443507-c7a5948772fc?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxTYXVjZXN8ZW58MHx8fHwxNzQzMDUzMjU3fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Sauces" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Sauces</h3>
+              <p>Enhance your meals with our diverse variety of savory and sweet sauces.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2023 Culinary Delights. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore a variety of delicious meals with our extensive recipe collection. From breakfast to desserts, find the perfect dish for every occasion."
+    />
+    <title>Culinary Delights | Discover Your Next Favorite Recipe</title>
+    <script src="https://unpkg.com/alpinejs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 antialiased">
+    <header class="bg-white shadow-md">
+      <div
+        class="container mx-auto px-4 py-2 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-indigo-600">Culinary Delights</h1>
+        <nav class="space-x-4 font-medium">
+          <a href="#" class="hover:text-indigo-600">Home</a>
+          <a href="#categories" class="hover:text-indigo-600">Categories</a>
+          <a href="#about" class="hover:text-indigo-600">About Us</a>
+          <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="bg-cover bg-center h-96"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1525351484163-7529414344d8?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHxicmVha2Zhc3R8ZW58MHx8fHwxNzQzMDUyODI0fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit');
+        "
+      >
+        <div class="bg-black bg-opacity-50 h-full flex items-center">
+          <div class="container mx-auto text-center text-white">
+            <h2 class="text-4xl font-bold">
+              Discover Your Next Favorite Recipe
+            </h2>
+            <p class="mt-4 text-xl">
+              From savory breakfasts to delightful desserts, we've got you
+              covered.
+            </p>
+            <a
+              href="#categories"
+              class="mt-6 inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded-lg"
+              >Explore Now</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="py-12 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold text-center mb-8">Categories</h2>
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            <a
+              href="/categories/breakfast"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxicmVha2Zhc3R8ZW58MHx8fHwxNzQzMDUyODI0fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Breakfast"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Breakfast
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/lunch"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1565895405138-6c3a1555da6a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxsdW5jaHxlbnwwfHx8fDE3NDMwNTI4MjV8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Lunch"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Lunch
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/dinner"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1556742205-e10c9486e506?ixid=M3w3MjkxMzJ8MXwxfHNlYXJjaHwxfHxkaW5uZXJ8ZW58MHx8fHwxNzQzMDUyODI1fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Dinner"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Dinner
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/dessert"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0fGVufDB8fHx8MTc0MzA1MjgyNXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Dessert"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Dessert
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/snacks"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxzbmFja3N8ZW58MHx8fHwxNzQzMDUyODI2fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Snacks"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Snacks
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/appetizers"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxhcHBldGl6ZXJzfGVufDB8fHx8MTc0MzA1MjgyNnww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Appetizers"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Appetizers
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/salads"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1607532941433-304659e8198a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxzYWxhZHN8ZW58MHx8fHwxNzQzMDUyODI2fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Salads"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Salads
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/soups"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1613844237701-8f3664fc2eff?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxzb3Vwc3xlbnwwfHx8fDE3NDMwNTI4MjZ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Soups"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Soups
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/beverages"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1625865019845-7b2c89b8a8a9?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxiZXZlcmFnZXN8ZW58MHx8fHwxNzQzMDUyODI3fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Beverages"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Beverages
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/side-dishes"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1633862033803-7abafaf9bcb9?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxzaWRlJTIwZGlzaGVzfGVufDB8fHx8MTc0MzA1MjgyN3ww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Side Dishes"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Side Dishes
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/main-courses"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1653250545519-2fdbc994812a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxtYWluJTIwY291cnNlc3xlbnwwfHx8fDE3NDMwNTI4Mjd8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Main Courses"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Main Courses
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/baking"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1540660290370-8aa90e451e8a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxiYWtpbmd8ZW58MHx8fHwxNzQzMDUyODI4fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Baking"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Baking
+                </h3>
+              </div>
+            </a>
+
+            <a
+              href="/categories/sauces"
+              class="group block bg-gray-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1472476443507-c7a5948772fc?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxzYXVjZXN8ZW58MHx8fHwxNzQzMDUyODI4fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit"
+                alt="Sauces"
+                class="h-40 w-full object-cover rounded-t-lg"
+              />
+              <div class="p-4">
+                <h3 class="font-semibold text-lg group-hover:text-indigo-600">
+                  Sauces
+                </h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-12 bg-gray-50">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold">About Us</h2>
+          <p class="mt-4 max-w-2xl mx-auto">
+            Culinary Delights is your go-to destination for discovering
+            mouth-watering recipes that suit every taste and occasion. Our
+            curated collection is designed to inspire home-cooks and culinary
+            enthusiasts alike.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto text-center">
+          <h3 class="text-3xl font-bold">Get in Touch</h3>
+          <p class="mt-4 max-w-2xl mx-auto">
+            Have questions or feedback? We'd love to hear from you! Email us at
+            contact@culinarydelights.com.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2023 Culinary Delights. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

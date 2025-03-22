@@ -1,0 +1,5 @@
+inherit_gem:
+  rubocop-basic: rubocop.yml
+
+Metrics/BlockLength:
+  Enabled: false

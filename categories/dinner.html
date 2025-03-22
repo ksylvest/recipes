@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the delightful world of breakfast with our stunning collection of pancake, waffle, and crepe recipes. Perfect for any occasion!">
+    <title>Delicious Breakfast Delights</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
+    <style>
+      .hero {
+        background: url('https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit') no-repeat center center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <header class="hero h-screen flex items-center justify-center">
+      <div class="bg-black bg-opacity-50 text-center p-8 text-white">
+        <h1 class="text-4xl lg:text-6xl font-bold mb-4">Breakfast Bliss</h1>
+        <p class="text-lg lg:text-xl mb-4">Awaken your senses with our exquisite array of breakfast creations!</p>
+        <a href="#recipes" class="inline-block px-6 py-3 bg-yellow-500 text-black font-semibold text-lg rounded hover:bg-yellow-600">Discover More</a>
+      </div>
+    </header>
+    <main class="p-6 lg:p-16">
+      <section id="recipes" class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Our Featured Recipes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition transform duration-300">
+            <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHx3YWZmbGVzfGVufDB8fHx8MTc0MzA1MzgxMnww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Waffles" class="w-full h-56 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Crispy Waffles</h3>
+              <p class="mt-2 text-gray-600">Enjoy crispy, golden waffles that are perfect for drizzling with syrup or serving with fresh fruit.</p>
+              <a href="#" class="block mt-4 px-3 py-2 bg-yellow-500 text-black text-center font-medium rounded hover:bg-yellow-600">Read Recipe</a>
+            </div>
+          </div>
+          <div class="max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition transform duration-300">
+            <img src="https://images.unsplash.com/photo-1519159904364-0edd185dd509?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHxjcmVwZXN8ZW58MHx8fHwxNzQzMDUzODEzfDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Crepes" class="w-full h-56 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Classic French Crepes</h3>
+              <p class="mt-2 text-gray-600">Indulge in the delicate taste of classic French crepes. Perfect for sweet or savory fillings.</p>
+              <a href="#" class="block mt-4 px-3 py-2 bg-yellow-500 text-black text-center font-medium rounded hover:bg-yellow-600">Read Recipe</a>
+            </div>
+          </div>
+          <div class="max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition transform duration-300">
+            <img src="https://images.unsplash.com/photo-1600184430626-1dd6087315d8?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxMHx8d2FmZmxlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Pancakes" class="w-full h-56 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Fluffy Pancakes</h3>
+              <p class="mt-2 text-gray-600">Experience the heavenly fluffiness of our delicious pancakes, great for any breakfast occasion.</p>
+              <a href="#" class="block mt-4 px-3 py-2 bg-yellow-500 text-black text-center font-medium rounded hover:bg-yellow-600">Read Recipe</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-800 text-white text-center py-6">
+      <p>&copy; 2023 Breakfast Bliss. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

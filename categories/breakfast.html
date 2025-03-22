@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Culinary Adventure | Explore Exquisite Recipes</title>
+  <meta name="description" content="Dive into a world of delightful recipes and cooking techniques. Enhance your culinary skills with our diverse collection of recipes, tips, and cooking inspiration.">
+  <script src="https://unpkg.com/alpinejs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+    .hero-bg { background-image: url('https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit'); }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <header class="hero-bg bg-cover bg-center h-screen text-white flex flex-col justify-center items-center">
+    <h1 class="text-4xl md:text-6xl font-bold">Embark on a Culinary Journey!</h1>
+    <p class="mt-4 text-xl text-center">Discover new tastes, enhance your skills, and delight in every bite.</p>
+    <a href="#recipes" class="mt-8 bg-white text-gray-900 px-4 py-2 rounded text-lg hover:bg-gray-300 transition">Explore Recipes</a>
+  </header>
+
+  <main class="px-4 py-10" id="recipes">
+    <h2 class="text-3xl font-semibold text-center mb-10">Our Featured Recipes</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+        <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwyfHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Recipe Image" width="3333" height="4548" class="w-full h-48 object-cover rounded-md">
+        <h3 class="mt-4 text-xl font-bold">Minimalist Meals</h3>
+        <p class="text-gray-600 mt-2">Streamline your cooking process with our collection of minimalist recipes designed to maximize flavor and simplicity.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+        <img src="https://images.unsplash.com/photo-1556909211-36987daf7b4d?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Recipe Image" width="4993" height="3329" class="w-full h-48 object-cover rounded-md">
+        <h3 class="mt-4 text-xl font-bold">Flavorful Fusions</h3>
+        <p class="text-gray-600 mt-2">Combine different cuisines to create something entirely new and exciting. Discover delightful fusion recipes that invigorate your palate.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw0fHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Recipe Image" width="5503" height="3745" class="w-full h-48 object-cover rounded-md">
+        <h3 class="mt-4 text-xl font-bold">Healthy Picks</h3>
+        <p class="text-gray-600 mt-2">Enjoy meals that fuel your body and support your lifestyle with our carefully curated healthy recipes.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 The Culinary Adventure. All rights reserved.</p>
+      <a href="#" class="text-blue-400 hover:underline">Privacy Policy</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover stunning recipes that tantalize your taste buds. Explore diverse recipes with engaging visuals and interactive experience.">
+    <title>Delicious Recipes | Culinary Journey</title>
+    <script src="https://unpkg.com/alpinejs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      .header-bg { background-image: url('https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw4fHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit'); }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <header class="header-bg bg-cover bg-center h-64 flex items-center justify-center">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white bg-gray-900 bg-opacity-50 p-4 rounded">The Art of Culinary Delights</h1>
+    </header>
+    
+    <main class="container mx-auto p-4">
+      <section class="mt-8">
+        <h2 class="text-3xl font-bold text-center mb-4">Explore Our Recipes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Recipe 1 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Recipe" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Delicious Feast</h3>
+              <p class="text-gray-700 mt-2">Savor the flavors of this exquisite dish that brings together the best of ingredients for a memorable meal.</p>
+              <a href="#" class="text-blue-600 hover:underline mt-4 block">View Recipe</a>
+            </div>
+          </div>
+          <!-- Recipe 2 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw0fHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Healthy Treat" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Healthy Freshness</h3>
+              <p class="text-gray-700 mt-2">Indulge in the goodness of fresh veggies, with a touch of sesame oil, for a nutritious kick!</p>
+              <a href="#" class="text-blue-600 hover:underline mt-4 block">View Recipe</a>
+            </div>
+          </div>
+          <!-- Recipe 3 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw5fHxyZWNpcGVzfGVufDB8fHx8MTc0MzA1Mzc4NXww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Spicy Sensation" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold">Spicy Sensation</h3>
+              <p class="text-gray-700 mt-2">Excite your senses with an array of spices that add depth and flavor to your culinary creations.</p>
+              <a href="#" class="text-blue-600 hover:underline mt-4 block">View Recipe</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="bg-gray-800 text-white text-center p-4">
+      <p>© 2023 Culinary Delight. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the captivating world of photography with our exclusive collection, brimming with creativity and inspiration.">
+    <meta name="keywords" content="photography, creative photos, inspirational images">
+    <title>Stunning Photography Collection</title>
+    <script src="https://unpkg.com/alpinejs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="text-4xl font-bold mb-4">Explore Our Captivating Photography Collection</h1>
+            <p class="text-lg">Dive into a visual journey that will stir your senses and ignite your creativity.</p>
+        </div>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1618481187355-8c5488243a6c?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="4000" height="6000" alt="A beautiful artful photo">
+            <img src="https://images.unsplash.com/photo-1567653418876-5bb0e566e1c2?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwyfHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="3648" height="4560" alt="Lollipop photo with interesting art effect">
+            <img src="https://images.unsplash.com/photo-1587837073080-448bc6a2329b?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="4000" height="6000" alt="Pensive man stroking his beard">
+            <img src="https://images.unsplash.com/photo-1630577915125-ee3a64f6f086?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw0fHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="4000" height="6000" alt="Woman with pink hair reading book">
+            <img src="https://images.unsplash.com/photo-1570286424501-6122c6a93e55?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw1fHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="3755" height="5006" alt="Vintage school photo with group of kids">
+            <img src="https://images.unsplash.com/photo-1568232745499-e65f1dd5276b?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw2fHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="2995" height="4493" alt="Scenic road with a mesmerizing sky">
+            <img src="https://images.unsplash.com/photo-1738788140989-6321d373b767?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw3fHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="4000" height="6000" alt="Tiny beautiful bird in vibrant colors">
+            <img src="https://images.unsplash.com/photo-1712420294180-dbd8c2a019bd?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw4fHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="4000" height="6000" alt="Creative Instagram shot with striking composition">
+            <img src="https://images.unsplash.com/photo-1630577915091-5874cabbcb2e?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw5fHxwaG90byUyMG9uZXxlbnwwfHx8fDE3NDMwNTM4ODN8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="4000" height="6000" alt="Another shot of woman with pink hair reading book">
+            <img src="https://images.unsplash.com/photo-1546085609-8657b65ee004?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxMHx8cGhvdG8lMjBvbmV8ZW58MHx8fHwxNzQzMDUzODgzfDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="6123" height="4082" alt="Stunning snowy landscape with rich details">
+            <img src="https://images.unsplash.com/photo-1541433929731-dba1ab6b0b42?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5472" height="3648" alt="Heartwarming monkeys nuzzling together">
+            <img src="https://images.unsplash.com/photo-1541956588965-b465cfe03f2d?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwyfHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5184" height="3456" alt="Lovable animal companions in a serene moment">
+            <img src="https://images.unsplash.com/photo-1465279200179-17610a05a696?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5456" height="3064" alt="Peaceful pastoral scene with a rustic feel">
+            <img src="https://images.unsplash.com/photo-1516641463285-bf3f40e65bae?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw0fHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5097" height="3398" alt="Vivacious and vibrant photogenic setting">
+            <img src="https://images.unsplash.com/photo-1561504142-31465a6bf5d0?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw1fHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="3648" height="5472" alt="Intriguing and dramatic portrait of people">
+            <img src="https://images.unsplash.com/photo-1555530657-5003a1c4bfc8?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw2fHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5464" height="3640" alt="Artistic and refreshing photo composition">
+            <img src="https://images.unsplash.com/photo-1530151928300-3864d0e5d178?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw3fHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="3175" height="4762" alt="Shocking yet subtle imagery of everyday life">
+            <img src="https://images.unsplash.com/photo-1646342029562-ea9da25426a1?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw4fHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="3579" height="5053" alt="Mesmerizing landscape with heartfelt hues">
+            <img src="https://images.unsplash.com/photo-1505934102503-1af91007c9ad?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw5fHxwaG90byUyMHR3b3xlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5184" height="3456" alt="Charming photo with endearing subject focus">
+            <img src="https://images.unsplash.com/photo-1546782175-0b0bd19a799b?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxMHx8cGhvdG8lMjB0d298ZW58MHx8fHwxNzQzMDUzODg0fDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="4936" height="3328" alt="Imaginative and delightful visual expression">
+            <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5472" height="3648" alt="Engaging and emotional storytelling through images">
+            <img src="https://images.unsplash.com/photo-1589326376112-07bace6aff35?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwyfHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="3958" height="5937" alt="Whimsical landscape with an air of mystery">
+            <img src="https://images.unsplash.com/photo-1576786764902-a33ad61723c3?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="3000" height="4000" alt="Modern and abstract photo with unique appeal">
+            <img src="https://images.unsplash.com/photo-1741184803381-a3a2f6a2d0a8?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw0fHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="6000" height="4000" alt="Quirky and curious picture with vivid imagery">
+            <img src="https://images.unsplash.com/photo-1628325943968-2e8d3c8aa311?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw1fHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="6000" height="4000" alt="Soulful portrait with deep emotional resonance">
+            <img src="https://images.unsplash.com/photo-1628325944034-51ebd333e2d8?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw2fHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="6000" height="4000" alt="Classic art infused with contemporary creativity">
+            <img src="https://images.unsplash.com/photo-1467456760203-273273db54e8?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw3fHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5042" height="3382" alt="Ethereal journey captured in stunning photography">
+            <img src="https://images.unsplash.com/photo-1723272713254-94d32ce2ef20?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw4fHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="2656" height="3984" alt="Artistic masterpiece with awe-inspiring design">
+            <img src="https://images.unsplash.com/photo-1728934211194-bd989f36dbe6?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw5fHxwaG90byUyMHRocmVlfGVufDB8fHx8MTc0MzA1Mzg4NHww&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="5872" height="3932" alt="Wonderful artwork shimmering in visual excellence">
+            <img src="https://images.unsplash.com/photo-1721209215170-7d9cf77347ec?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxMHx8cGhvdG8lMjB0aHJlZXxlbnwwfHx8fDE3NDMwNTM4ODR8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" width="2021" height="3032" alt="Imaginative expression captured through the lens">
+        </div>
+    </div>
+</body>
+</html>

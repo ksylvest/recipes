@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the world of pancakes with delicious recipes, beautiful imagery, and engaging content. Perfect for every breakfast lover!">
+  <title>Delicious Pancake Recipes for Every Taste</title>
+  <script src="https://unpkg.com/alpinejs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-yellow-500 text-white text-center py-5">
+    <h1 class="text-3xl font-bold">Pancake Paradise</h1>
+    <p class="mt-2">Indulge in the most delightful pancake recipes.</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-4">
+    <section class="mt-8">
+      <h2 class="text-2xl font-semibold text-center mb-6">Explore Our Pancake Recipes</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <article>
+          <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxfHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Pancakes" width="5718" height="3812" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwyfHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Enjoy your meal!" width="3098" height="3873" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1612182062633-9ff3b3598e96?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwzfHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Delicious Pancakes" width="3246" height="4496" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1587339144367-f1cacbecac82?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw0fHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="More Pancakes" width="4000" height="6000" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1555813456-94a3dd418cd3?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw1fHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Pancakes" width="3454" height="2763" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1541288097308-7b8e3f58c4c6?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw2fHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Pancakes with Fruit" width="5472" height="3648" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1612182062966-c8fe45ecbf73?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw3fHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Pancakes" width="4608" height="3456" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw4fHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Crepes with Oranges and Honey" width="4000" height="6000" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHw5fHxwYW5jYWtlc3xlbnwwfHx8fDE3NDMwNTM4MTJ8MA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Pancakes for Breakfast" width="4000" height="6000" class="w-full h-auto rounded-md shadow-md">
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1565299543923-37dd37887442?ixid=M3w3MjkxMzJ8MHwxfHNlYXJjaHwxMHx8cGFuY2FrZXN8ZW58MHx8fHwxNzQzMDUzODEyfDA&ixlib=rb-4.0.3&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit" alt="Breakfast in Bed with Pancakes" width="3991" height="4822" class="w-full h-auto rounded-md shadow-md">
+        </article>
+      </div>
+    </section>
+    <section class="mt-12 text-center">
+      <h2 class="text-2xl font-semibold">Join Our Pancake Community</h2>
+      <p class="mt-4 max-w-md mx-auto">Discover new recipes, share your feedback, and stay updated with the latest in pancake innovations. Follow us on social media and subscribe to our newsletter.</p>
+    </section>
+  </main>
+
+  <footer class="bg-yellow-500 text-white text-center py-4 mt-8">
+    <p>&copy; 2023 Pancake Paradise. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

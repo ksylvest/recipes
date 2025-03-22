@@ -1,0 +1,765 @@
+---
+categories:
+- name: Breakfast
+  slug: breakfast
+  recipes:
+  - name: Sunrise Avocado Toast with Spicy Sprouts
+    slug: sunrise-avocado-toast-with-spicy-sprouts
+  - name: Maple Pecan Overnight Oats
+    slug: maple-pecan-overnight-oats
+  - name: Cinnamon Roll Pancake Stacks
+    slug: cinnamon-roll-pancake-stacks
+  - name: Savory Mushroom & Spinach Breakfast Bake
+    slug: savory-mushroom-spinach-breakfast-bake
+  - name: Berry Bliss Smoothie Bowl
+    slug: berry-bliss-smoothie-bowl
+  - name: Hearty Breakfast Burrito with Salsa Verde
+    slug: hearty-breakfast-burrito-with-salsa-verde
+  - name: Nutty Banana Bread French Toast
+    slug: nutty-banana-bread-french-toast
+  - name: Lemon Ricotta Waffles with Fresh Berries
+    slug: lemon-ricotta-waffles-with-fresh-berries
+  - name: Classic Chia Seed Pudding Parfait
+    slug: classic-chia-seed-pudding-parfait
+  - name: Golden Turmeric Porridge
+    slug: golden-turmeric-porridge
+  - name: Apple Cinnamon Quinoa Bowl
+    slug: apple-cinnamon-quinoa-bowl
+  - name: Savory Sweet Potato and Black Bean Hash
+    slug: savory-sweet-potato-black-bean-hash
+  - name: Zucchini Feta Frittata
+    slug: zucchini-feta-frittata
+  - name: Fluffy Blueberry Almond Muffins
+    slug: fluffy-blueberry-almond-muffins
+  - name: Caramelized Pineapple Coconut Smoothie
+    slug: caramelized-pineapple-coconut-smoothie
+  - name: Decadent Dark Chocolate Hazelnut Granola
+    slug: decadent-dark-chocolate-hazelnut-granola
+  - name: Sausage and Bell Pepper Breakfast Skillet
+    slug: sausage-bell-pepper-breakfast-skillet
+  - name: Vanilla Bean Greek Yogurt Parfait
+    slug: vanilla-bean-greek-yogurt-parfait
+  - name: Crispy Hash Brown Avocado Sandwich
+    slug: crispy-hash-brown-avocado-sandwich
+  - name: Rustic Tomato Basil Egg Bake
+    slug: rustic-tomato-basil-egg-bake
+  - name: Peach and Almond Scone Delight
+    slug: peach-almond-scone-delight
+  - name: Warm Spiced Pear and Walnut Oatmeal
+    slug: warm-spiced-pear-walnut-oatmeal
+  - name: Protein-Packed Chickpea Omelette
+    slug: protein-packed-chickpea-omelette
+  - name: Mango Passionfruit Yogurt Cups
+    slug: mango-passionfruit-yogurt-cups
+  - name: Smoked Salmon and Dill Bagel
+    slug: smoked-salmon-dill-bagel
+  - name: Savory Herb and Cheese Scones
+    slug: savory-herb-cheese-scones
+  - name: Buttermilk-Glazed Cranberry Walnut Loaf
+    slug: buttermilk-glazed-cranberry-walnut-loaf
+  - name: Artisan Fig and Honey Bread Pudding
+    slug: artisan-fig-honey-bread-pudding
+  - name: Eggplant and Goat Cheese Breakfast Tart
+    slug: eggplant-goat-cheese-breakfast-tart
+  - name: Herb Infused Honey Butter Biscuits
+    slug: herb-infused-honey-butter-biscuits
+- name: Lunch
+  slug: lunch
+  recipes:
+  - name: Spicy Thai Basil Chicken Wraps
+    slug: spicy-thai-basil-chicken-wraps
+  - name: Mediterranean Quinoa Salad Delight
+    slug: mediterranean-quinoa-salad-delight
+  - name: Rustic Tomato Basil Soup
+    slug: rustic-tomato-basil-soup
+  - name: Zesty Lemon Herb Grilled Salmon
+    slug: zesty-lemon-herb-grilled-salmon
+  - name: Hearty Lentil & Veggie Stew
+    slug: hearty-lentil-veggie-stew
+  - name: Savory Ham & Swiss Panini
+    slug: savory-ham-swiss-panini
+  - name: Crispy Avocado Tacos
+    slug: crispy-avocado-tacos
+  - name: Balsamic Glazed Chicken Skewers
+    slug: balsamic-glazed-chicken-skewers
+  - name: Roasted Red Pepper & Feta Flatbread
+    slug: roasted-red-pepper-feta-flatbread
+  - name: Garlic Butter Shrimp & Asparagus
+    slug: garlic-butter-shrimp-asparagus
+  - name: Vegan Chickpea & Spinach Curry
+    slug: vegan-chickpea-spinach-curry
+  - name: Crisp Greek Salad with Olives
+    slug: crisp-greek-salad-with-olives
+  - name: Buffalo Cauliflower Lettuce Wraps
+    slug: buffalo-cauliflower-lettuce-wraps
+  - name: Italian Sausage & Peppers Bake
+    slug: italian-sausage-peppers-bake
+  - name: Creamy Avocado & Herb Pasta
+    slug: creamy-avocado-herb-pasta
+  - name: Quinoa Stuffed Bell Peppers
+    slug: quinoa-stuffed-bell-peppers
+  - name: Classic Tuna Niçoise Salad
+    slug: classic-tuna-nicoise-salad
+  - name: Miso Glazed Eggplant Medley
+    slug: miso-glazed-eggplant-medley
+  - name: Pesto Caprese Ciabatta
+    slug: pesto-caprese-ciabatta
+  - name: Seared Tofu with Ginger Soy Sauce
+    slug: seared-tofu-ginger-soy-sauce
+  - name: Southwest Black Bean Corn Chowder
+    slug: southwest-black-bean-corn-chowder
+  - name: Roasted Veggie & Hummus Wrap
+    slug: roasted-veggie-hummus-wrap
+  - name: Pomegranate & Goat Cheese Spinach Salad
+    slug: pomegranate-goat-cheese-spinach-salad
+  - name: Moroccan Spiced Carrot Soup
+    slug: moroccan-spiced-carrot-soup
+  - name: Cheddar & Broccoli Rice Casserole
+    slug: cheddar-broccoli-rice-casserole
+  - name: Lemon Dill Grilled Chicken Breast
+    slug: lemon-dill-grilled-chicken-breast
+  - name: Chipotle Lime Cauliflower Steaks
+    slug: chipotle-lime-cauliflower-steaks
+  - name: Mediterranean Falafel Platter
+    slug: mediterranean-falafel-platter
+  - name: Creamy Tomato & Basil Risotto
+    slug: creamy-tomato-basil-risotto
+  - name: BBQ Pulled Jackfruit Sandwich
+    slug: bbq-pulled-jackfruit-sandwich
+  - name: Caribbean Jerk Shrimp Tacos
+    slug: caribbean-jerk-shrimp-tacos
+- name: Dinner
+  slug: dinner
+  recipes:
+  - name: Lemon Herb Roasted Chicken
+    slug: lemon-herb-roasted-chicken
+  - name: Spicy Teriyaki Ginger Beef Stir-Fry
+    slug: spicy-teriyaki-ginger-beef-stir-fry
+  - name: Garlic-Parmesan Crusted Cod
+    slug: garlic-parmesan-crusted-cod
+  - name: Sundried Tomato Pesto Gnocchi
+    slug: sundried-tomato-pesto-gnocchi
+  - name: Smoky Paprika Pork Chops
+    slug: smoky-paprika-pork-chops
+  - name: Creamy Basil Pesto Risotto
+    slug: creamy-basil-pesto-risotto
+  - name: Honey Glazed Citrus Salmon
+    slug: honey-glazed-citrus-salmon
+  - name: Cajun Chicken Pasta Delight
+    slug: cajun-chicken-pasta-delight
+  - name: Sweet Potato Black Bean Chili
+    slug: sweet-potato-black-bean-chili
+  - name: Savory Mushroom Risotto with Thyme
+    slug: savory-mushroom-risotto-with-thyme
+  - name: Moroccan Spiced Lamb Stew
+    slug: moroccan-spiced-lamb-stew
+  - name: Maple-Dijon Glazed Roasted Veggies
+    slug: maple-dijon-glazed-roasted-veggies
+  - name: Zesty Orange Glazed Duck
+    slug: zesty-orange-glazed-duck
+  - name: Chipotle Lime Shrimp Tacos
+    slug: chipotle-lime-shrimp-tacos
+  - name: Five-Spice Crispy Tofu Stir-Fry
+    slug: five-spice-crispy-tofu-stir-fry
+  - name: Spinach Artichoke Stuffed Shells
+    slug: spinach-artichoke-stuffed-shells
+  - name: Balsamic Glazed Brussels Sprouts
+    slug: balsamic-glazed-brussels-sprouts
+  - name: Tangy BBQ Pulled Pork Sandwiches
+    slug: tangy-bbq-pulled-pork-sandwiches
+  - name: Saffron Lemon Chicken Tagine
+    slug: saffron-lemon-chicken-tagine
+  - name: Butternut Squash Coconut Curry
+    slug: butternut-squash-coconut-curry
+  - name: Herb-Crusted Trout with Citrus Zest
+    slug: herb-crusted-trout-with-citrus-zest
+  - name: Roasted Cauliflower and Quinoa Salad
+    slug: roasted-cauliflower-and-quinoa-salad
+  - name: Classic Beef Bourguignon Bliss
+    slug: classic-beef-bourguignon-bliss
+  - name: Mediterranean Chickpea Wraps
+    slug: mediterranean-chickpea-wraps
+  - name: Grilled Lemon-Garlic Asparagus
+    slug: grilled-lemon-garlic-asparagus
+  - name: Blackened Cajun Catfish
+    slug: blackened-cajun-catfish
+- name: Dessert
+  slug: dessert
+  recipes:
+  - name: Velvety Nutmeg Pumpkin Pie
+    slug: velvety-nutmeg-pumpkin-pie
+  - name: Dark Chocolate Raspberry Bliss
+    slug: dark-chocolate-raspberry-bliss
+  - name: Crispy Caramel Taffy Apple
+    slug: crispy-caramel-taffy-apple
+  - name: Coconut Lemongrass Mousse
+    slug: coconut-lemongrass-mousse
+  - name: Toasted Pecan Ripple Torte
+    slug: toasted-pecan-ripple-torte
+  - name: Lavender Lemon Dream Bars
+    slug: lavender-lemon-dream-bars
+  - name: Silky Maple Bourbon Tiramisu
+    slug: silky-maple-bourbon-tiramisu
+  - name: Hazelnut Espresso French Pie
+    slug: hazelnut-espresso-french-pie
+  - name: Sunset Peach Melba Brûlée
+    slug: sunset-peach-melba-brulee
+  - name: Cherry Pistachio Tartlet Dream
+    slug: cherry-pistachio-tartlet-dream
+  - name: Zesty Raspberry Lime Parfait
+    slug: zesty-raspberry-lime-parfait
+  - name: Vanilla Chai Spiced Flan
+    slug: vanilla-chai-spiced-flan
+  - name: Blackberry Thyme Shortcake
+    slug: blackberry-thyme-shortcake
+  - name: Crunchy Almond Coconut Macaroons
+    slug: crunchy-almond-coconut-macaroons
+  - name: Golden Saffron Honey Lollipops
+    slug: golden-saffron-honey-lollipops
+  - name: Strawberry Basil Custard Delight
+    slug: strawberry-basil-custard-delight
+  - name: Spiced Pear Fig Strudel
+    slug: spiced-pear-fig-strudel
+  - name: Chili Hot Chocolate Fondant
+    slug: chili-hot-chocolate-fondant
+  - name: Caramelized Banana Cream Galette
+    slug: caramelized-banana-cream-galette
+  - name: Roasted Plum Walnut Cake
+    slug: roasted-plum-walnut-cake
+  - name: Mint Infused Citrus Sorbet
+    slug: mint-infused-citrus-sorbet
+  - name: Tangy Rhubarb Ginger Cobbler
+    slug: tangy-rhubarb-ginger-cobbler
+  - name: Emerald Pistachio Frosted Cookies
+    slug: emerald-pistachio-frosted-cookies
+  - name: Honeyed Apricot Almond Cakelets
+    slug: honeyed-apricot-almond-cakelets
+  - name: Lush Orange Blossom Pavlova
+    slug: lush-orange-blossom-pavlova
+  - name: Butterscotch Whipped Eclairs
+    slug: butterscotch-whipped-eclairs
+- name: Snacks
+  slug: snacks
+  recipes:
+  - name: Honey Glazed Spicy Nut Mix
+    slug: honey-glazed-spicy-nut-mix
+  - name: Crunchy Parmesan Kale Chips
+    slug: crunchy-parmesan-kale-chips
+  - name: Gourmet Popcorn Truffle Explosion
+    slug: gourmet-popcorn-truffle-explosion
+  - name: Sriracha Lime Trail Mix
+    slug: sriracha-lime-trail-mix
+  - name: Zesty Lemon Herb Hummus Dip
+    slug: zesty-lemon-herb-hummus-dip
+  - name: Crispy Sweet Potato Chips
+    slug: crispy-sweet-potato-chips
+  - name: Savory Cheddar Jalapeño Biscuits
+    slug: savory-cheddar-jalapeno-biscuits
+  - name: Maple Bacon Pretzel Knots
+    slug: maple-bacon-pretzel-knots
+  - name: Caramel Drizzled Apple Nachos
+    slug: caramel-drizzled-apple-nachos
+  - name: Black Bean & Avocado Salsa Boats
+    slug: black-bean-avocado-salsa-boats
+  - name: Rosemary Sea Salt Focaccia Bites
+    slug: rosemary-sea-salt-focaccia-bites
+  - name: Peanut Butter Banana Bites
+    slug: peanut-butter-banana-bites
+  - name: Spicy Roasted Chickpea Crunch
+    slug: spicy-roasted-chickpea-crunch
+  - name: Coconut Curry Popcorn Clusters
+    slug: coconut-curry-popcorn-clusters
+  - name: Cinnamon Sugar Pastry Twists
+    slug: cinnamon-sugar-pastry-twists
+  - name: Stuffed Cucumber Tuna Boats
+    slug: stuffed-cucumber-tuna-boats
+  - name: Pesto Mozzarella Stuffed Pretzels
+    slug: pesto-mozzarella-stuffed-pretzels
+  - name: Dark Chocolate Almond Date Rolls
+    slug: dark-chocolate-almond-date-rolls
+  - name: Fire Roasted Red Pepper Dip
+    slug: fire-roasted-red-pepper-dip
+  - name: Savory Herb Cheese Straws
+    slug: savory-herb-cheese-straws
+  - name: Sweet Chili Lime Edamame
+    slug: sweet-chili-lime-edamame
+  - name: Crispy Rice & Lentil Fritters
+    slug: crispy-rice-lentil-fritters
+  - name: Tangy Dill Pickle Popcorn
+    slug: tangy-dill-pickle-popcorn
+  - name: Berry Burst Nacho Flats
+    slug: berry-burst-nacho-flats
+  - name: Buffalo Cauliflower Power Bites
+    slug: buffalo-cauliflower-power-bites
+  - name: Crispy Garlic Butter Parmesan Wings
+    slug: crispy-garlic-butter-parmesan-wings
+- name: Appetizers
+  slug: appetizers
+  recipes:
+  - name: Zesty Lemon Herb Mozzarella Bites
+    slug: zesty-lemon-herb-mozzarella-bites
+  - name: Savory Spinach Artichoke Dip Cups
+    slug: savory-spinach-artichoke-dip-cups
+  - name: Sweet & Spicy Mango Shrimp Skewers
+    slug: sweet-spicy-mango-shrimp-skewers
+  - name: Crispy Parmesan Truffle Polenta Fries
+    slug: crispy-parmesan-truffle-polenta-fries
+  - name: Roasted Garlic & Rosemary Flatbread
+    slug: roasted-garlic-rosemary-flatbread
+  - name: Cranberry & Brie Puff Pastry Twists
+    slug: cranberry-brie-puff-pastry-twists
+  - name: Tangy Ginger Soy Chicken Lettuce Cups
+    slug: tangy-ginger-soy-chicken-lettuce-cups
+  - name: Chili Lime Avocado Stuffed Peppers
+    slug: chili-lime-avocado-stuffed-peppers
+  - name: Sesame Honey Glazed Meatball Skewers
+    slug: sesame-honey-glazed-meatball-skewers
+  - name: Smoked Salmon & Dill Cream Tartlets
+    slug: smoked-salmon-dill-cream-tartlets
+  - name: Citrus Avocado & Black Bean Tostadas
+    slug: citrus-avocado-black-bean-tostadas
+  - name: Chipotle Lime Sweet Potato Rounds
+    slug: chipotle-lime-sweet-potato-rounds
+  - name: Stuffed Mushrooms with Sundried Tomato Pesto
+    slug: stuffed-mushrooms-sundried-tomato-pesto
+  - name: Balsamic Fig & Goat Cheese Crostini
+    slug: balsamic-fig-goat-cheese-crostini
+  - name: Crispy Chickpea Fritters with Mint Yogurt
+    slug: crispy-chickpea-fritters-mint-yogurt
+  - name: Fire-Roasted Red Pepper Hummus Cups
+    slug: fire-roasted-red-pepper-hummus-cups
+  - name: Curried Carrot & Coriander Mini Tartlets
+    slug: curried-carrot-coriander-mini-tartlets
+  - name: Pomegranate Glazed Baby Back Ribs Bites
+    slug: pomegranate-glazed-baby-back-ribs-bites
+  - name: Spicy Jalapeno Popper Empanaditas
+    slug: spicy-jalapeno-popper-empanaditas
+  - name: Herbed Ricotta & Grilled Zucchini Rolls
+    slug: herbed-ricotta-grilled-zucchini-rolls
+  - name: Coconut Curry Cauliflower Bites
+    slug: coconut-curry-cauliflower-bites
+  - name: Asian Sesame Beef Satay
+    slug: asian-sesame-beef-satay
+  - name: Roasted Beet & Feta Salad Cups
+    slug: roasted-beet-feta-salad-cups
+  - name: Buffalo Cauliflower Lettuce Wraps
+    slug: buffalo-cauliflower-lettuce-wraps
+  - name: Prosciutto Wrapped Asparagus Spears
+    slug: prosciutto-wrapped-asparagus-spears
+  - name: Bite-Sized Black Bean & Corn Fritters
+    slug: bite-sized-black-bean-corn-fritters
+  - name: Sun-Kissed Tomato Bruschetta
+    slug: sun-kissed-tomato-bruschetta
+  - name: Crispy Duck and Hoisin Spring Rolls
+    slug: crispy-duck-hoisin-spring-rolls
+  - name: Pine Nut & Basil Stuffed Cherry Tomatoes
+    slug: pine-nut-basil-stuffed-cherry-tomatoes
+  - name: Blackberry and Brie Puff Pastry Bites
+    slug: blackberry-brie-puff-pastry-bites
+  - name: Lemon Pepper Chicken & Arugula Rolls
+    slug: lemon-pepper-chicken-arugula-rolls
+  - name: Maple Sriracha Glazed Bacon Knots
+    slug: maple-sriracha-glazed-bacon-knots
+  - name: Caramelized Onion & Blue Cheese Tartlets
+    slug: caramelized-onion-blue-cheese-tartlets
+- name: Salads
+  slug: salads
+  recipes:
+  - name: Crisp Apple Walnut Medley
+    slug: crisp-apple-walnut-medley
+  - name: Mediterranean Quinoa Fusion
+    slug: mediterranean-quinoa-fusion
+  - name: Zesty Citrus Kale Delight
+    slug: zesty-citrus-kale-delight
+  - name: Spicy Thai Peanut Crunch
+    slug: spicy-thai-peanut-crunch
+  - name: Roasted Beet & Feta Symphony
+    slug: roasted-beet-feta-symphony
+  - name: Avocado Mango Tango
+    slug: avocado-mango-tango
+  - name: Southwest Black Bean Fiesta
+    slug: southwest-black-bean-fiesta
+  - name: Honey Dijon Chicken Mix
+    slug: honey-dijon-chicken-mix
+  - name: Berry Goat Cheese Bliss
+    slug: berry-goat-cheese-bliss
+  - name: Ginger Sesame Noodle Bowl
+    slug: ginger-sesame-noodle-bowl
+  - name: Pomegranate Wild Rice Gala
+    slug: pomegranate-wild-rice-gala
+  - name: Crunchy Cabbage Rainbow
+    slug: crunchy-cabbage-rainbow
+  - name: Grape & Gorgonzola Greenery
+    slug: grape-gorgonzola-greenery
+  - name: Sun-Dried Tomato Couscous Celebration
+    slug: sun-dried-tomato-couscous-celebration
+  - name: Smoked Salmon & Dill Ensemble
+    slug: smoked-salmon-dill-ensemble
+  - name: Chickpea & Avocado Harmony
+    slug: chickpea-avocado-harmony
+  - name: Tropical Pineapple Shrimp Mix
+    slug: tropical-pineapple-shrimp-mix
+  - name: Roasted Sweet Potato Fiesta
+    slug: roasted-sweet-potato-fiesta
+  - name: Lemon Herb Orzo Petite
+    slug: lemon-herb-orzo-petite
+  - name: Tuscan White Bean Harvest
+    slug: tuscan-white-bean-harvest
+  - name: Carrot Ginger Zest Fusion
+    slug: carrot-ginger-zest-fusion
+  - name: Cherry Balsamic Spinach Delight
+    slug: cherry-balsamic-spinach-delight
+  - name: Green Goddess Avocado Bowl
+    slug: green-goddess-avocado-bowl
+  - name: Cucumber Melon Garden
+    slug: cucumber-melon-garden
+  - name: Feta & Fig Mixed Greens
+    slug: feta-fig-mixed-greens
+  - name: Sizzling Pepper & Corn Symphony
+    slug: sizzling-pepper-corn-symphony
+- name: Soups
+  slug: soups
+  recipes:
+  - name: Creamy Roasted Tomato Basil Soup
+    slug: creamy-roasted-tomato-basil-soup
+  - name: Hearty Lentil and Kale Stew
+    slug: hearty-lentil-and-kale-stew
+  - name: Silky Butternut Squash Apple Bisque
+    slug: silky-butternut-squash-apple-bisque
+  - name: Savory Mushroom Thyme Consommé
+    slug: savory-mushroom-thyme-consomme
+  - name: Rich Lobster and Corn Chowder
+    slug: rich-lobster-and-corn-chowder
+  - name: Tangy Ginger Carrot Coconut Soup
+    slug: tangy-ginger-carrot-coconut-soup
+  - name: Spicy Moroccan Harira Delight
+    slug: spicy-moroccan-harira-delight
+  - name: Saffron Infused Chicken Broth
+    slug: saffron-infused-chicken-broth
+  - name: Velvety Potato Leek Classic
+    slug: velvety-potato-leek-classic
+  - name: Fresh Minty Pea Velvet
+    slug: fresh-minty-pea-velvet
+  - name: Rustic Italian Wedding Soup
+    slug: rustic-italian-wedding-soup
+  - name: Zesty Lemon Orzo Chicken Soup
+    slug: zesty-lemon-orzo-chicken-soup
+  - name: Creamy Coconut Thai Curry Bowl
+    slug: creamy-coconut-thai-curry-bowl
+  - name: Harvest Pumpkin Sage Elixir
+    slug: harvest-pumpkin-sage-elixir
+  - name: Spicy Black Bean Fiesta Soup
+    slug: spicy-black-bean-fiesta-soup
+  - name: Classic New England Clam Chowder
+    slug: classic-new-england-clam-chowder
+  - name: Sweet Potato and Parsnip Harmony
+    slug: sweet-potato-and-parsnip-harmony
+  - name: Earthy Wild Mushroom Essence
+    slug: earthy-wild-mushroom-essence
+  - name: Citrus Cilantro Chicken Soup
+    slug: citrus-cilantro-chicken-soup
+  - name: Golden Turmeric Cauliflower Bliss
+    slug: golden-turmeric-cauliflower-bliss
+  - name: Nutty Asparagus Spring Medley
+    slug: nutty-asparagus-spring-medley
+  - name: French Onion Soul Warmer
+    slug: french-onion-soul-warmer
+  - name: Hearty Chickpea and Spinach Bowl
+    slug: hearty-chickpea-and-spinach-bowl
+  - name: Sumptuous Seafood Bouillabaisse
+    slug: sumptuous-seafood-bouillabaisse
+  - name: Bright and Spicy Gazpacho
+    slug: bright-and-spicy-gazpacho
+  - name: Garden Fresh Minestrone Delight
+    slug: garden-fresh-minestrone-delight
+  - name: Exotic Lemongrass Shrimp Soup
+    slug: exotic-lemongrass-shrimp-soup
+  - name: Comforting Beef and Barley Potion
+    slug: comforting-beef-and-barley-potion
+  - name: Cashmere Spice Carrot Soup
+    slug: cashmere-spice-carrot-soup
+- name: Beverages
+  slug: beverages
+  recipes:
+  - name: Velvety Vanilla Bean Frappe
+    slug: velvety-vanilla-bean-frappe
+  - name: Citrus Sunrise Spritzer
+    slug: citrus-sunrise-spritzer
+  - name: Dark Chocolate Mint Mocha
+    slug: dark-chocolate-mint-mocha
+  - name: Blueberry Basil Bliss
+    slug: blueberry-basil-bliss
+  - name: Golden Turmeric Latte
+    slug: golden-turmeric-latte
+  - name: Spiced Apple Pie Cider
+    slug: spiced-apple-pie-cider
+  - name: Lavender Lemonade Elixir
+    slug: lavender-lemonade-elixir
+  - name: Iced Espresso Caramel Crème
+    slug: iced-espresso-caramel-creme
+  - name: Pineapple Coconut Cooler
+    slug: pineapple-coconut-cooler
+  - name: Raspberry Rose Refresher
+    slug: raspberry-rose-refresher
+  - name: Matcha Mint Mojito
+    slug: matcha-mint-mojito
+  - name: Peach Passion Iced Tea
+    slug: peach-passion-iced-tea
+  - name: Cinnamon Honey Chai
+    slug: cinnamon-honey-chai
+  - name: Frosty Watermelon Martini
+    slug: frosty-watermelon-martini
+  - name: Caramelized Banana Smoothie
+    slug: caramelized-banana-smoothie
+  - name: Tropical Mango Tango
+    slug: tropical-mango-tango
+  - name: Sweet Ginger Pear Soda
+    slug: sweet-ginger-pear-soda
+  - name: Hazelnut Cocoa Cappuccino
+    slug: hazelnut-cocoa-cappuccino
+  - name: Zesty Limeade Fizz
+    slug: zesty-limeade-fizz
+  - name: Rich Almond Cocoa Brew
+    slug: rich-almond-cocoa-brew
+  - name: Strawberry Kiwi Delight
+    slug: strawberry-kiwi-delight
+  - name: Pumpkin Spice Cold Brew
+    slug: pumpkin-spice-cold-brew
+  - name: Cherry Blossom Iced Tea
+    slug: cherry-blossom-iced-tea
+  - name: Tangy Cranberry Zinger
+    slug: tangy-cranberry-zinger
+- name: Side Dishes
+  slug: side-dishes
+  recipes:
+  - name: Crispy Parmesan Truffle Fries
+    slug: crispy-parmesan-truffle-fries
+  - name: Maple Glazed Brussels Sprouts
+    slug: maple-glazed-brussels-sprouts
+  - name: Garlic Butter Roasted Potatoes
+    slug: garlic-butter-roasted-potatoes
+  - name: Herb Infused Quinoa Pilaf
+    slug: herb-infused-quinoa-pilaf
+  - name: Zesty Lemon Thyme Asparagus
+    slug: zesty-lemon-thyme-asparagus
+  - name: Sweet Potato Coconut Mash
+    slug: sweet-potato-coconut-mash
+  - name: Spicy Sriracha Green Beans
+    slug: spicy-sriracha-green-beans
+  - name: Honey Balsamic Roasted Carrots
+    slug: honey-balsamic-roasted-carrots
+  - name: Cheesy Spinach Stuffed Mushrooms
+    slug: cheesy-spinach-stuffed-mushrooms
+  - name: Cilantro Lime Rice Delight
+    slug: cilantro-lime-rice-delight
+  - name: Savory Herb Focaccia Bread
+    slug: savory-herb-focaccia-bread
+  - name: Creamy Dill Cucumber Salad
+    slug: creamy-dill-cucumber-salad
+  - name: Succulent Bacon Wrapped Asparagus
+    slug: succulent-bacon-wrapped-asparagus
+  - name: Caramelized Onion & Feta Tart
+    slug: caramelized-onion-feta-tart
+  - name: Mediterranean Couscous Medley
+    slug: mediterranean-couscous-medley
+  - name: Rosemary Garlic Rolls
+    slug: rosemary-garlic-rolls
+  - name: Pomegranate & Walnut Wild Rice
+    slug: pomegranate-walnut-wild-rice
+  - name: Spicy Sweet Corn Fritters
+    slug: spicy-sweet-corn-fritters
+  - name: Roasted Beet & Citrus Salad
+    slug: roasted-beet-citrus-salad
+  - name: Smoky Paprika Grilled Zucchini
+    slug: smoky-paprika-grilled-zucchini
+  - name: Lavender Honey Glazed Carrots
+    slug: lavender-honey-glazed-carrots
+  - name: Sun-Dried Tomato & Olive Tapenade
+    slug: sun-dried-tomato-olive-tapenade
+  - name: Cauliflower Cheese Gratin
+    slug: cauliflower-cheese-gratin
+  - name: Lemon Basil Orzo Salad
+    slug: lemon-basil-orzo-salad
+  - name: Ginger Soy Glazed Bok Choy
+    slug: ginger-soy-glazed-bok-choy
+- name: Main Courses
+  slug: main-courses
+  recipes:
+  - name: Savory Lemon Herb Chicken Bake
+    slug: savory-lemon-herb-chicken-bake
+  - name: Roasted Garlic Butter Shrimp Delight
+    slug: roasted-garlic-butter-shrimp-delight
+  - name: Maple Glazed Salmon Fiesta
+    slug: maple-glazed-salmon-fiesta
+  - name: Creamy Tuscan Pasta with Sun-Dried Tomatoes
+    slug: creamy-tuscan-pasta-with-sun-dried-tomatoes
+  - name: Spicy Moroccan Beef Tagine
+    slug: spicy-moroccan-beef-tagine
+  - name: Coconut Curry Chicken Stir Fry
+    slug: coconut-curry-chicken-stir-fry
+  - name: Zesty Lime Cilantro Quinoa Bowl
+    slug: zesty-lime-cilantro-quinoa-bowl
+  - name: Honey Dijon Grilled Pork Tenderloin
+    slug: honey-dijon-grilled-pork-tenderloin
+  - name: Balsamic Glazed Caprese Chicken
+    slug: balsamic-glazed-caprese-chicken
+  - name: Szechuan Spiced Crispy Tofu
+    slug: szechuan-spiced-crispy-tofu
+  - name: Stuffed Bell Peppers with Cheesy Quinoa
+    slug: stuffed-bell-peppers-with-cheesy-quinoa
+  - name: Herbed Lemon Sole Fillets
+    slug: herbed-lemon-sole-fillets
+  - name: Autumn Harvest Risotto
+    slug: autumn-harvest-risotto
+  - name: Mediterranean Lamb and Couscous
+    slug: mediterranean-lamb-and-couscous
+  - name: Pineapple Teriyaki Chicken Skewers
+    slug: pineapple-teriyaki-chicken-skewers
+  - name: Raspberry Chipotle Glazed Ribs
+    slug: raspberry-chipotle-glazed-ribs
+  - name: Pumpkin Sage Gnocchi with Brown Butter
+    slug: pumpkin-sage-gnocchi-with-brown-butter
+  - name: Miso Mustard Grilled Eggplant
+    slug: miso-mustard-grilled-eggplant
+  - name: Southwest Blackened Fish Tacos
+    slug: southwest-blackened-fish-tacos
+  - name: Herb Crusted Lamb with Mint Pesto
+    slug: herb-crusted-lamb-with-mint-pesto
+  - name: Lemon Garlic Butter Steak Bites
+    slug: lemon-garlic-butter-steak-bites
+  - name: Pesto Shrimp and Asparagus Risotto
+    slug: pesto-shrimp-and-asparagus-risotto
+  - name: Peach and Prosciutto Pizza
+    slug: peach-and-prosciutto-pizza
+  - name: Spiced Lentil and Vegetable Stew
+    slug: spiced-lentil-and-vegetable-stew
+  - name: Grilled Halloumi and Veggie Platter
+    slug: grilled-halloumi-and-veggie-platter
+  - name: Chili Lime Chicken Tenders
+    slug: chili-lime-chicken-tenders
+- name: Baking
+  slug: baking
+  recipes:
+  - name: Golden Honey Oat Loaf
+    slug: golden-honey-oat-loaf
+  - name: Velvet Cocoa Lava Cakes
+    slug: velvet-cocoa-lava-cakes
+  - name: Lemon Zest Sunshine Tart
+    slug: lemon-zest-sunshine-tart
+  - name: Caramel Swirl Cheesecake Bars
+    slug: caramel-swirl-cheesecake-bars
+  - name: Rustic Walnut Sourdough
+    slug: rustic-walnut-sourdough
+  - name: Spiced Apple Cider Muffins
+    slug: spiced-apple-cider-muffins
+  - name: Dreamy Vanilla Bean Chiffon
+    slug: dreamy-vanilla-bean-chiffon
+  - name: Blissful Blueberry Streusel
+    slug: blissful-blueberry-streusel
+  - name: Cinnamon Twirl Morning Rolls
+    slug: cinnamon-twirl-morning-rolls
+  - name: Decadent Mocha Brownie Slice
+    slug: decadent-mocha-brownie-slice
+  - name: Maple Pecan Pie Delight
+    slug: maple-pecan-pie-delight
+  - name: Crispy Herb Parmesan Biscuits
+    slug: crispy-herb-parmesan-biscuits
+  - name: Glistening Raspberry Galettes
+    slug: glistening-raspberry-galettes
+  - name: Cherry Blossom Eclairs
+    slug: cherry-blossom-eclairs
+  - name: Double Chocolate Espresso Cookies
+    slug: double-chocolate-espresso-cookies
+  - name: Fig & Honey Brioche Buns
+    slug: fig-honey-brioche-buns
+  - name: Zesty Lime Meringue Pie
+    slug: zesty-lime-meringue-pie
+  - name: Pumpkin Spice Whoopie Pies
+    slug: pumpkin-spice-whoopie-pies
+  - name: Autumn Harvest Apple Crisp
+    slug: autumn-harvest-apple-crisp
+  - name: Nutty Brown Butter Blondies
+    slug: nutty-brown-butter-blondies
+  - name: Sugared Lemon Lavender Scones
+    slug: sugared-lemon-lavender-scones
+  - name: Pistachio Rosewater Madeleines
+    slug: pistachio-rosewater-madeleines
+  - name: Rich Bourbon Pecan Torte
+    slug: rich-bourbon-pecan-torte
+  - name: Heavenly Butter Croissants
+    slug: heavenly-butter-croissants
+  - name: Toasted Coconut Custard Cake
+    slug: toasted-coconut-custard-cake
+  - name: Sesame Seed Honey Sticks
+    slug: sesame-seed-honey-sticks
+  - name: Almond Joy Macarons
+    slug: almond-joy-macarons
+  - name: Hazelnut Clove Sugar Bread
+    slug: hazelnut-clove-sugar-bread
+  - name: Passionfruit Soufflé
+    slug: passionfruit-souffle
+  - name: Moonlit Strawberry Tarts
+    slug: moonlit-strawberry-tarts
+- name: Sauces
+  slug: sauces
+  recipes:
+  - name: Velvety Garlic Butter Sauce
+    slug: velvety-garlic-butter-sauce
+  - name: Savory Thyme Gravy
+    slug: savory-thyme-gravy
+  - name: Smoky Chipotle BBQ
+    slug: smoky-chipotle-bbq
+  - name: Tangy Lemon Herb Drizzle
+    slug: tangy-lemon-herb-drizzle
+  - name: Herbaceous Basil Pesto
+    slug: herbaceous-basil-pesto
+  - name: Sweet and Spicy Mango Salsa
+    slug: sweet-and-spicy-mango-salsa
+  - name: Rich Marsala Wine Reduction
+    slug: rich-marsala-wine-reduction
+  - name: Classic Marinara Blend
+    slug: classic-marinara-blend
+  - name: Cilantro Lime Crema
+    slug: cilantro-lime-crema
+  - name: Honey Mustard Harmony
+    slug: honey-mustard-harmony
+  - name: Coconut Curry Elegance
+    slug: coconut-curry-elegance
+  - name: Roasted Red Pepper Coulis
+    slug: roasted-red-pepper-coulis
+  - name: Balsamic Fig Infusion
+    slug: balsamic-fig-infusion
+  - name: Creamy Dijon Whisk
+    slug: creamy-dijon-whisk
+  - name: Zesty Chimichurri Zing
+    slug: zesty-chimichurri-zing
+  - name: Pineapple Teriyaki Glaze
+    slug: pineapple-teriyaki-glaze
+  - name: Sun-Dried Tomato Tapenade
+    slug: sun-dried-tomato-tapenade
+  - name: Peppercorn Cream Sauce
+    slug: peppercorn-cream-sauce
+  - name: Lavender Honey Reduction
+    slug: lavender-honey-reduction
+  - name: Spicy Mustard Relish
+    slug: spicy-mustard-relish
+  - name: Porcini Mushroom Emulsion
+    slug: porcini-mushroom-emulsion
+  - name: Caramelized Onion Marmalade
+    slug: caramelized-onion-marmalade
+  - name: Sesame Ginger Splash
+    slug: sesame-ginger-splash
+  - name: White Wine Lemon Beurre
+    slug: white-wine-lemon-beurre
+  - name: Espresso Balsamic Drizzle
+    slug: espresso-balsamic-drizzle
+  - name: Minted Pea Puree
+    slug: minted-pea-puree
+  - name: Piquant Rémoulade Delight
+    slug: piquant-remoulade-delight
+  - name: Apple Cider Reduction
+    slug: apple-cider-reduction
+  - name: Classic White Sauce
+    slug: classic-white-sauce
+  - name: Sweet Bourbon Glaze
+    slug: sweet-bourbon-glaze
